@@ -1,0 +1,12 @@
+.build
+.idea
+node_modules
+*.log
+public/components
+lib/pdfTemp/*
+# OS generated files
+.DS_Store*
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
