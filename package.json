@@ -1,15 +1,24 @@
 {
   "name": "tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "GPS Tracker",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Maninder Dhanju <singhmaninder21@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdhanju/tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mdhanju/tracker/issues"
+  },
+  "homepage": "https://github.com/mdhanju/tracker#readme",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2"
